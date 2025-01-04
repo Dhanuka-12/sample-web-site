@@ -1,0 +1,194 @@
+a{
+    text-decoration: none;
+}
+
+header ul li{
+    font-size: 20px;
+    font-family: sans-serif;
+    
+}
+
+p{
+    font-family: cursive;
+    text-indent: 50px;
+    text-align: justify;
+}
+
+
+header ul{
+    list-style-type: none;
+    margin: 40px;
+    
+
+}
+
+header li{
+    display: inline;
+    
+}
+
+header li a{
+    padding: 10px;
+    text-decoration:none;
+    color: black;
+
+}
+
+header li a:hover{
+    background-color: lightgray;
+}
+
+.action-buttons{
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: linen;
+    box-shadow: 0 2px 1px grey;  
+}
+.booknow-button{
+    background-color: navy;
+    color: white;
+    padding: 7px 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+nav div button{
+    border: none;
+    background-color: linen;
+}
+.bootcamps{
+    display: flex;
+    gap: 80px;
+    text-align: center;
+    padding: 10px 130px;
+
+
+}
+.bootcamps button{
+    background-color: whitesmoke;
+    border-radius: 15px;
+    padding: 5px 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.cricketboot{
+    background-color: #a2c8d2;
+    border-radius: 30px;
+    padding: 5px 20px 30px 30px;
+
+}
+.baseballboot{
+    background-color: #d2a2a2;
+    border-radius: 30px;
+    padding: 5px 20px 30px 30px;
+}
+.soccerboot{
+    background-color: #a1e895;
+    border-radius: 30px;
+    padding: 5px 20px 30px 30px;
+}
+.hockeyboot{
+    background-color: #a18cf8;
+    border-radius: 30px;
+    padding: 5px 20px 30px 30px;
+}
+
+
+.footer {
+    background-color: #e6f7f8; 
+    padding: 20px 50px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+
+.footer-left {
+    max-width: 300px;
+}
+
+.footer-logo {
+    width: 120px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.footer-left p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.footer-left button {
+    background-color: #007b8f;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.footer-left button:hover {
+    background-color: #005f6b;
+}
+
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #007b8f;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+
+.footer-right {
+    text-align: center;
+    padding-top: 50px;
+    
+}
+
+
+
+.social-media img,
+.payment-options img {
+    width: 24px;
+    height: 24px;
+    margin: 5px;
+}
+
+.social-media p,
+.payment-options p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
